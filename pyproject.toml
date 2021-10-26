@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "counters"
+version = "0.1.0"
+description = "A project for storing events of various types  and further viewing them"
+authors = ["demogi4523 <demogi4523@yandex.ru>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+click = "^8.0.3"
+pytest = "^6.2.5"
+tabulate = "^0.8.9"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
